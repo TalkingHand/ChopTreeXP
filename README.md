@@ -64,7 +64,7 @@ Contents/mods/ChopTreeXP/
 
 ## License
 
-[MIT](LICENSE)
+All rights reserved. No license is granted for redistribution or modified versions.
 
 ---
 
