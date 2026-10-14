@@ -1,4 +1,5 @@
 version=1
+id=3819720196
 title=Chop Tree XP
 description=[h1]Chop Tree XP[/h1]
 description=In vanilla Build 42, the right-click [b]Chop Tree[/b] action gives no Strength XP (only hitting a tree manually does). This mod grants XP on [b]every hit[/b] of the automatic Chop Tree action.
@@ -28,7 +29,7 @@ description=우클릭 "나무 베기"(자동 벌목)로 나무를 칠 때마다 
 description=
 description=Source: https://github.com/TalkingHand/ChopTreeXP
 description=
-description=Workshop ID: (set after first upload)
+description=Workshop ID: 3819720196
 description=Mod ID: ChopTreeXP
 tags=Build 42;Misc
 visibility=public

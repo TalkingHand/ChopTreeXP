@@ -39,7 +39,7 @@ In vanilla `animEvent`, the `if not isClient()` branch is the one that applies t
 
 ## Install
 
-- Steam Workshop: subscribe, then enable **Chop Tree XP** in the mod list.
+- Steam Workshop: [Chop Tree XP](https://steamcommunity.com/sharedfiles/filedetails/?id=3819720196) (ID `3819720196`). Subscribe, then enable **Chop Tree XP** in the mod list.
 - Manual: copy `Contents/mods/ChopTreeXP` to `%USERPROFILE%\Zomboid\mods\`.
 - Multiplayer: add the mod to the server. All players need it too.
 
@@ -92,7 +92,7 @@ Project Zomboid **Build 42**용 모드입니다. 우클릭 **나무 베기**(자
 
 ### 설치
 
-- 창작마당에서 구독하고 모드 목록에서 켭니다.
+- [창작마당](https://steamcommunity.com/sharedfiles/filedetails/?id=3819720196)(ID `3819720196`)에서 구독하고 모드 목록에서 켭니다.
 - 수동 설치: `Contents/mods/ChopTreeXP` 폴더를 `%USERPROFILE%\Zomboid\mods\`에 복사합니다.
 - 멀티: 서버에 모드를 추가합니다. 모든 플레이어가 모드를 가지고 있어야 합니다.
 
