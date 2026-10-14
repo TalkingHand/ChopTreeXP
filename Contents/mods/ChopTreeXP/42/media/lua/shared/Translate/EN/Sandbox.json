@@ -1,0 +1,13 @@
+{
+    "Sandbox_ChopTreeXP": "Chop Tree XP",
+    "Sandbox_ChopTreeXP_EnableStrength": "Strength XP from Chop Tree",
+    "Sandbox_ChopTreeXP_EnableStrength_tooltip": "Each tree hit of the automatic Chop Tree action grants Strength XP like one burpee rep (4.8).",
+    "Sandbox_ChopTreeXP_StrengthMultiplier": "Strength XP multiplier",
+    "Sandbox_ChopTreeXP_StrengthMultiplier_tooltip": "Multiplier on the per-hit Strength XP (4.8). Applied before the server XP multipliers.",
+    "Sandbox_ChopTreeXP_EnableAxe": "Axe XP from Chop Tree",
+    "Sandbox_ChopTreeXP_EnableAxe_tooltip": "Each tree hit grants Axe XP proportional to the tree health it removed, so every axe gives the same Axe XP per tree (about 3 per Fire Axe hit). Axe-category weapons only.",
+    "Sandbox_ChopTreeXP_AxeMultiplier": "Axe XP multiplier",
+    "Sandbox_ChopTreeXP_AxeMultiplier_tooltip": "Multiplier on the Axe XP. Applied before the server XP multipliers.",
+    "Sandbox_ChopTreeXP_EnableFitness": "Fitness XP from Chop Tree",
+    "Sandbox_ChopTreeXP_EnableFitness_tooltip": "Each tree hit grants Fitness XP like one burpee rep (3.2)."
+}

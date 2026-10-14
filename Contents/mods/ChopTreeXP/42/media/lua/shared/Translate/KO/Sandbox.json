@@ -1,0 +1,13 @@
+{
+    "Sandbox_ChopTreeXP": "나무 베기 경험치",
+    "Sandbox_ChopTreeXP_EnableStrength": "나무 베기 근력 경험치",
+    "Sandbox_ChopTreeXP_EnableStrength_tooltip": "자동 \"나무 베기\"에서 나무를 한 번 칠 때마다 버피 1회와 같은 근력 경험치(4.8)를 지급합니다.",
+    "Sandbox_ChopTreeXP_StrengthMultiplier": "근력 경험치 배율",
+    "Sandbox_ChopTreeXP_StrengthMultiplier_tooltip": "타격당 근력 경험치(4.8)에 곱하는 배율. 서버 경험치 배율보다 먼저 적용됩니다.",
+    "Sandbox_ChopTreeXP_EnableAxe": "나무 베기 도끼 경험치",
+    "Sandbox_ChopTreeXP_EnableAxe_tooltip": "나무를 칠 때마다 깎은 나무 체력에 비례해 도끼 경험치를 지급합니다. 어떤 도끼든 그루당 도끼 경험치가 같습니다(소방 도끼 1회 약 3). 도끼 계열 무기만 해당.",
+    "Sandbox_ChopTreeXP_AxeMultiplier": "도끼 경험치 배율",
+    "Sandbox_ChopTreeXP_AxeMultiplier_tooltip": "도끼 경험치에 곱하는 배율. 서버 경험치 배율보다 먼저 적용됩니다.",
+    "Sandbox_ChopTreeXP_EnableFitness": "나무 베기 체력 경험치",
+    "Sandbox_ChopTreeXP_EnableFitness_tooltip": "나무를 한 번 칠 때마다 버피 1회와 같은 체력 경험치(3.2)를 지급합니다."
+}

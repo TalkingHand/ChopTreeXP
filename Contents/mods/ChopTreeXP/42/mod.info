@@ -1,0 +1,8 @@
+name=Chop Tree XP
+id=ChopTreeXP
+description=Grants Strength, Fitness and Axe XP on every hit of the automatic "Chop Tree" action. Multiplayer-safe (XP is granted once, server-side). Configurable in sandbox options.
+poster=poster.png
+author=TalkingHand
+modversion=1.0.0
+url=https://github.com/TalkingHand/ChopTreeXP
+versionMin=42.0

@@ -1,0 +1,45 @@
+VERSION = 1,
+
+option ChopTreeXP.EnableStrength
+{
+    type = boolean,
+    default = true,
+    page = ChopTreeXP,
+    translation = ChopTreeXP_EnableStrength,
+}
+
+option ChopTreeXP.StrengthMultiplier
+{
+    type = double,
+    default = 1.0,
+    min = 0.0,
+    max = 100.0,
+    page = ChopTreeXP,
+    translation = ChopTreeXP_StrengthMultiplier,
+}
+
+option ChopTreeXP.EnableAxe
+{
+    type = boolean,
+    default = true,
+    page = ChopTreeXP,
+    translation = ChopTreeXP_EnableAxe,
+}
+
+option ChopTreeXP.AxeMultiplier
+{
+    type = double,
+    default = 1.0,
+    min = 0.0,
+    max = 100.0,
+    page = ChopTreeXP,
+    translation = ChopTreeXP_AxeMultiplier,
+}
+
+option ChopTreeXP.EnableFitness
+{
+    type = boolean,
+    default = true,
+    page = ChopTreeXP,
+    translation = ChopTreeXP_EnableFitness,
+}
