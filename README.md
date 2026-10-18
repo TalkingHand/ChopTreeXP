@@ -97,3 +97,7 @@ Project Zomboid **Build 42**용 모드입니다. 우클릭 **나무 베기**(자
 - 멀티: 서버에 모드를 추가합니다. 모든 플레이어가 모드를 가지고 있어야 합니다.
 
 다른 벌목 경험치 모드와 함께 쓰면 경험치가 중복으로 들어가니 함께 쓰지 마세요.
+
+## Support
+
+If this mod helps you, you can support it via [PayPal](https://www.paypal.com/paypalme/TalkingHands619/3). It's optional; every feature stays free.
