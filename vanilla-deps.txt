@@ -1,0 +1,25 @@
+# ChopTreeXP: vanilla dependencies (format: _guide/README.md "바닐라 의존 목록")
+# checked: 42.21.0
+#
+# kind	target	note
+
+lua-wrap	ISChopTreeAction:animEvent	shared/TimedActions/ISChopTreeAction.lua:65. Wrapped at file load, original called first. Reload-safe (ChopTreeXP.wrappers)
+lua-file	shared/TimedActions/ISChopTreeAction.lua	required by ChopTreeXP.lua:27
+lua-field	ISChopTreeAction.axe / .tree / .character	read in animEvent (ChopTreeXP.lua:70,78)
+
+java-call	isClient()	ChopTreeXP.lua:70
+java-call	IsoTree:getHealth()	health before/after the vanilla hit = tree damage (ChopTreeXP.lua:71,76)
+java-call	InventoryItem:getScriptItem()	ChopTreeXP.lua:43
+java-call	Item:containsWeaponCategory(WeaponCategory.AXE)	ChopTreeXP.lua:44
+java-call	addXp(character, Perks.X, amount)	global; server-side call syncs to the owning client in MP
+data	Perks.Fitness / Perks.Strength / Perks.Axe
+data	WeaponCategory.AXE
+data	anim event name 'ChopTree'	ISChopTreeAction.lua:66 branch, serverStart emulateAnimEvent
+sandbox	ChopTreeXP.*	own options (media/sandbox-options.txt), read via SandboxVars.ChopTreeXP
+
+assume	animEvent `if not isClient()` branch applies the hit	ISChopTreeAction.lua:66. SP: local game; MP: server. The else branch only plays WeaponHitEffects (:92). If this moves, XP is granted twice or never
+assume	MP server emulates 'ChopTree' every 1500 ms	ISChopTreeAction:serverStart, :111 emulateAnimEvent(self.netAction, 1500, "ChopTree", nil)
+assume	vanilla hit lowers tree health inside animEvent	IsoTree.WeaponHit (Java): TreeDamage, x1.5 with a trait, clamped on the last hit. If the damage moves out of animEvent, treeDamage = 0 and no Axe XP
+assume	automatic Chop Tree gives no XP in vanilla	Events.OnWeaponHitTree (server/XpSystem/XpUpdate.lua:43, Strength +2) fires only on a manual hit. If vanilla starts firing it from ISChopTreeAction, XP stacks
+assume	burpee XP: Strength (arms 4 + chest 2) x 0.8 = 4.8, Fitness legs 4 x 0.8 = 3.2	shared/Definitions/FitnessExercises.lua:28 burpees xpMod 0.8, stiffness legs,arms,chest; Java Fitness.incStats per-part 4/2
+assume	Axe XP coefficient: zombie hit damage 1.4 x 0.9, Fire Axe TreeDamage 35	server/XpSystem/XpUpdate.lua:50 onWeaponHitXp (:58 `1 * damage * 0.9`); Base.Axe TreeDamage = 35 (scripts/generated/items/weapon.txt). README table (1.3/3.0/4.8 per hit, 20.7 per tree, 240 HP) follows from these
