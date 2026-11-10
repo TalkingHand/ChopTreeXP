@@ -29,6 +29,8 @@ description=우클릭 "나무 베기"(자동 벌목)로 나무를 칠 때마다 
 description=
 description=Source: https://github.com/TalkingHand/ChopTreeXP
 description=
+description=[url=https://ko-fi.com/talkinghands2285][img]https://raw.githubusercontent.com/TalkingHand/ChopTreeXP/main/art/kofi_button.png[/img][/url]
+description=
 description=Workshop ID: 3819720196
 description=Mod ID: ChopTreeXP
 tags=Build 42;Misc
