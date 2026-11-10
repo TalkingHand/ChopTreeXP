@@ -101,3 +101,5 @@ Project Zomboid **Build 42**용 모드입니다. 우클릭 **나무 베기**(자
 ## Support
 
 If this mod helps you, you can support it via [Ko-fi](https://ko-fi.com/talkinghands2285) or [PayPal](https://www.paypal.com/paypalme/TalkingHands619/3). It's optional; every feature stays free.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/talkinghands2285)
