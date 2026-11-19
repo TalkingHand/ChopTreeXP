@@ -1,0 +1,36 @@
+在 Build 42 中，用自动的 [b]砍倒树[/b] 动作砍树几乎得不到经验：原版每次击打只给 2 点力量经验。本模组为该动作的每次击打额外提供力量、体格和斧头经验。
+
+[b]每次击打只发放一次经验，单人游戏和多人游戏均适用。每一项都可以在沙盒选项中关闭或调整倍率。[/b]
+
+[h2]每次击打的经验[/h2]
+[list]
+[*][b]力量 4.8、体格 3.2：[/b]与做一次波比跳相同。原版每次击打的 2 点力量经验仍会照常获得。
+[*][b]斧头：[/b]与该次击打削减的树木生命值成正比，因此无论用哪把斧头，每棵树获得的斧头经验都相同：生命值 240 的树约为 20.7。按每次击打计算，单手斧约 1.3，消防斧 3.0，伐木斧 4.8。
+[*]只有斧类武器才会提供斧头经验。
+[*]所有数值均为应用服务器经验倍率之前的值。
+[/list]
+
+[h2]沙盒选项[/h2]
+选项位于 [b]Chop Tree XP[/b] 页面。本模组的选项在游戏中以英文显示。
+[table]
+[tr][th]选项[/th][th]默认值[/th][th]说明[/th][/tr]
+[tr][td]Strength XP from Chop Tree[/td][td]开启[/td][td]每次击打获得力量经验（4.8）。[/td][/tr]
+[tr][td]Strength XP multiplier[/td][td]1.0[/td][td]0 至 100。乘以本模组提供的力量经验。[/td][/tr]
+[tr][td]Axe XP from Chop Tree[/td][td]开启[/td][td]每次击打按削减的树木生命值获得斧头经验。[/td][/tr]
+[tr][td]Axe XP multiplier[/td][td]1.0[/td][td]0 至 100。乘以本模组提供的斧头经验。[/td][/tr]
+[tr][td]Fitness XP from Chop Tree[/td][td]开启[/td][td]每次击打获得体格经验（3.2）。[/td][/tr]
+[/table]
+
+[h2]多人游戏[/h2]
+经验在原版处理击打的地方发放：多人游戏中在服务器上，单人游戏中在本地游戏中。因此每次击打只发放一次经验，并通过常规的经验同步传给客户端。请将本模组添加到服务器，每位玩家也都需要安装。
+
+[h2]兼容性[/h2]
+[list]
+[*]包装原版的砍树动作，不替换任何原版文件。
+[*]可以安全地添加到现有存档。
+[*]请勿与其他砍树经验模组同时使用，否则经验会叠加。
+[/list]
+
+Source: https://github.com/TalkingHand/ChopTreeXP
+
+[url=https://ko-fi.com/talkinghands2285][img]https://raw.githubusercontent.com/TalkingHand/ChopTreeXP/main/art/kofi_button.png[/img][/url]
